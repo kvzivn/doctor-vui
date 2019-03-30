@@ -1,0 +1,20 @@
+{
+  "name": "doctor-vui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kvzivn/doctor-vui.git",
+  "author": "kvzivn <hello@kevinivan.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "normalize-scss": "^7.0.1"
+  }
+}
