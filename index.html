@@ -10,7 +10,25 @@
     <title>Dr. Voice</title>
 </head>
 <body>
-    <h1>LMAO</h1>
+    <header class="TopNav">
+        <img class="logo" src="/img/logo.svg" alt="">
+        <div class="buttons">
+            <img src="/img/highlight.svg" alt="" class="button button--highlight js-highlight">
+            <img src="/img/strike.svg" alt="" class="button button--strike js-strike">
+            <img src="/img/comment.svg" alt="" class="button">
+        </div>
+        <div class="export">
+            <button class="copy">Copy</button>
+            <span class="exportLink">Export</span>
+        </div>
+    </header>
+
+    <div class="Wrapper">
+        <div class="Doc js-script"></div>
+        <div class="Doc js-notes Doc--notes">
+            <h3 style="text-align: center; margin: 0 0 6px 0;">Medical Notes</h3>
+        </div>
+    </div>
 
     <script src="js/index.js"></script>
 </body>
